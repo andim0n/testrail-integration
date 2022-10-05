@@ -1,0 +1,35 @@
+{
+  "name": "@andim0n/testrail-integration",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/ -f json:cucumber_report.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andim0n/testrail-integration.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/andim0n"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andim0n/testrail-integration/issues"
+  },
+  "homepage": "https://github.com/andim0n/testrail-integration#readme",
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "gherkin-parse": "^1.0.6",
+    "googleapis": "^68.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "cucumber": "^5.1.0"
+  }
+}
